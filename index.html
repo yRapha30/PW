@@ -12,12 +12,11 @@
         background-attachment: fixed;
     }
     .cabeca{background-color: purple;
-    padding: 20px;
-    color: black;
-    text-align: center;
-    margin: 0;
-    color: white;
-    
+        padding: 20px;
+        color: black;
+        text-align: center;
+        margin: 0;
+        color: white;
     }
     .menu{
         background-color: gray;
@@ -34,47 +33,70 @@
         background-color: purple;
 
     }
-    .col-lateral{
+    .coluna-lateral-esquerda{
         color: white;
         float: left;
-    }
-    .col-centro{
-        color: white;
-        float: left;
+        box-sizing: border-box;
+        width: 20%;
+        background-color: purple;
         padding: 10px;
     }
-   .coluna-lateral{
+    .coluna-centro{
         color: white;
         float: left;
+        box-sizing: border-box;
+        width: 60%;
+        background-color: rgb(78, 6, 78);
+        padding: 10px;
+    }
+    .coluna-lateral-direita{
+        color: white;
+        float: left;
+        box-sizing: border-box;
+        width: 20%;
+        background-color: purple;
+        padding: 10px;
+    }
+    .rodape{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 25px;
+    }
+    .rodape p{ 
+        padding: 25px;
+    }
+   .conteudo{
+        clear: both;
    }
-
     </style>
 </head>
 <body>
-   <div class="cabeca">
-    <h1>Void</h1>
-</div>
-<div class="menu">
-    <a href="#">Home</a>
-    <a href="#">Blog</a>
-    <a href="#">Serviço</a>
-    <a href="#">Sobre</a>
-</div>
-<div class="conteudo">
-    <div class="coluna-lateral"> 
-        <h2>Lado</h2>
-        <p>coluna da esquerda</p>
-</div>
-<div class="coluna-lateral">  
-</div>
-<div class="col-centro">
-    <h2>meio</h2>
-    <p>Conteudo Principal</p>
-</div>
-<div class="col-lateral">
-    <h2>Lado</h2> 
-    <p>Essa é a coluna da direita.</p>
-</div>
-    
+    <div class="cabeca">
+        <h1>Void</h1>
+    </div>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Serviço</a>
+        <a href="#">Sobre</a>
+    </div>
+    <div class="conteudo">
+        <div class="coluna-lateral-esquerda"> 
+            <h2>Lado</h2>
+            <p>coluna da esquerda</p>
+        </div>
+        <div class="coluna-centro">
+            <h2>meio</h2>
+            <p>Conteúdo Principal</p>
+        </div>
+        <div class="coluna-lateral-direita">
+            <h2>Lado</h2> 
+            <p>Essa é a coluna da direita.</p>
+        </div>
+    </div>
+    <div class="rodape">
+            <p>Esse é o rodapé</p>
+    </div>
 </body>
 </html>
